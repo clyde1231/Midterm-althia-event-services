@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Count extends Model
+{
+    use HasFactory;
+
+    protected $table = 'counts';
+
+    protected $fillable = [
+        'happy_customer',
+        'videographer',
+        'events_complete',
+    ];
+}
